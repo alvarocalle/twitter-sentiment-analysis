@@ -12,14 +12,6 @@ To run this application, it is needed to have the twitter API up. To set up the 
 5. These keys and tokens are needed to be able to use the API and are stored in env.vars file.
 6. It is good to have these stored as environment variables
 
-## Google cloud API [optional]
-If we want to use sentiment analysis tools from Google Cloud we need the Google API as well.
-1. Crea a Google Cloud account.
-2. Install gcloud-sdk: https://cloud.google.com/sdk/downloads#apt-get
-3. Initialize gcloud-sdk: gcloud init
-4. Enable Google API to use sentiment analysis services.
-5. Create an API KEY to access from the app and store the generated json
-
 ## Configuration
 1. The different paths and options needed by the APP can be configured in twitter.conf. Some options are:
 - SENTIMENT:
